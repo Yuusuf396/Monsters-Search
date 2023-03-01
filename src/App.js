@@ -22,9 +22,9 @@ class  App extends Component {
  handleChange = (e) => {
   this.setState({searchField:e.target.value})
  }
- fresh(){
-  console.log('n01')
- }
+//  fresh(){
+//   console.log('n01')
+//  }
   
   render(){
     const {monsters,searchField}=this.state;
