@@ -29,7 +29,7 @@ class  App extends Component {
     const filteredMOnsters =monsters.filter(monster=>
       monster.name.toLowerCase().includes(searchField.toLowerCase( ))
       )
-      const onclick=e=> this.setState({searchField :e.target.value})
+      // const onclick=e=> this.setState({searchField :e.target.value})
     
 
 
