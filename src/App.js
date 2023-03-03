@@ -11,7 +11,7 @@ class  App extends Component {
       monsters: [],
       searchField:''
    }
-   this.fresh2=this.fresh.bind(this)
+  //  this.fresh2=this.fresh.bind(this)
   //  this.handleChange = this.handleChange.bind(this); for only normal functions..arrow functions dont need to bind
  }
  componentDidMount(){
@@ -29,7 +29,7 @@ class  App extends Component {
     const filteredMOnsters =monsters.filter(monster=>
       monster.name.toLowerCase().includes(searchField.toLowerCase( ))
       )
-      // const onclick=e=> this.setState({searchField :e.target.value})
+      const onclick=e=> this.setState({searchField :e.target.value})
     
 
 
